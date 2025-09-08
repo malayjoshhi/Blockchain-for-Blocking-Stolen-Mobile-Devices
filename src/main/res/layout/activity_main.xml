@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/mainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blockchain Stolen Device Tracker"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#222"
+            android:layout_marginBottom="8dp" />
+
+
+
+
+
+        <!-- Register Device -->
+        <Button
+            android:id="@+id/btnRegisterDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Device"
+            android:drawableStart="@android:drawable/ic_input_add"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnGoDeviceList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Device List"
+            android:drawableStart="@android:drawable/ic_menu_agenda"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#03DAC5"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <!-- Mark as Stolen -->
+        <Button
+            android:id="@+id/btnMarkStolen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark Device as Stolen"
+            android:drawableStart="@android:drawable/ic_delete"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#F44336"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Check Device Status -->
+        <Button
+            android:id="@+id/btnCheckStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Device Status"
+            android:drawableStart="@android:drawable/ic_menu_info_details"
+            android:padding="14dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAdminPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Admin Panel"
+            android:layout_marginTop="16dp" />
+
+           </LinearLayout>
+</ScrollView>
